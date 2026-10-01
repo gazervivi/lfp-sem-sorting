@@ -20,14 +20,17 @@ cells**, one degradation state per cell:
 
 | Class | Folder | State | Images | Cell |
 |---|---|---|---|---|
-| `A_new` | `new-全新` | Pristine, uncycled | 48 | Cell 1 |
-| `B_2V` | `2V-产气` | Over-discharged to 2 V, gassing | 48 | Cell 2 |
-| `C_0V` | `0V-析铜` | Over-discharged to 0 V, copper dissolution | 39 | Cell 3 |
-| `D_cu` | `0.2V-0.5V` | 0.2–0.5 V hold, copper-plated region | 41 | Cell 4 |
+| `A_new` | `new` | Pristine, uncycled | 50 | Cell 1 |
+| `B_2V` | `2v` | Over-discharged to 2 V, gassing | 47 | Cell 2 |
+| `C_0V` | `0v` | Over-discharged to 0 V, copper dissolution | 39 | Cell 3 |
+| `D_0Vcu` | `0V-析铜` | 0 V hold with visible copper deposition | 40 | Cell 4 |
 
-After md5 de-duplication the corpus is 177 → 176 images (class C loses one
-duplicate). **One class = one cell**: class identity and cell identity are
-fully confounded by design of the source campaign (see Limitations).
+Counts are taken from `data/manifest_clean.csv` (the de-duplicated corpus
+that all experiments used). After md5 de-duplication the corpus is
+177 → 176 images (the `0v` folder contains 40 files, one of which is an
+exact duplicate, leaving class C with 39). **One class = one cell**: class
+identity and cell identity are fully confounded by design of the source
+campaign (see Limitations).
 
 Each image in `data/raw/<batch>/<class-folder>/` is accompanied by a `.txt`
 metadata file with SEM acquisition parameters (accelerating voltage, stage
