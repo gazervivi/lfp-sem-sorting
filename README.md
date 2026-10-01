@@ -88,9 +88,16 @@ docs/        server environment README, backup/restore notes (Chinese)
 ```
 
 Model weights (22 × `best.pt`, 1.4 GB total; two Swin-T files exceed the
-100 MB git limit) are **not in the git tree**. Download
-`lfp_sem_model_weights.zip` from the
-[Releases](../../releases) page. Checkpoints were saved with full pickle —
+100 MB git limit) are **not in the git tree**. They are published on the
+[Releases](../../releases) page as nine split parts
+(`weights_part_aa` … `weights_part_ai`). Download all parts, then:
+
+```bash
+cat weights_part_* > lfp_sem_model_weights.zip   # reassemble
+unzip lfp_sem_model_weights.zip                  # 22 best.pt checkpoints
+```
+
+(1,365,028,819 bytes total.) Checkpoints were saved with full pickle —
 load with `torch.load(path, weights_only=False)`.
 
 ## 4. Reproduce
