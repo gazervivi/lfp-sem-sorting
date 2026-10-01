@@ -1,0 +1,100 @@
+{
+  "backbone": "resnet50",
+  "seed": 42,
+  "protocol": "kfold5_f4_imagelevel.csv",
+  "n_train": 1968,
+  "n_val": 288,
+  "n_test": 560,
+  "best_epoch": 29,
+  "best_val_acc": 1.0,
+  "best_val_f1": 1.0,
+  "epochs_run": 54,
+  "total_min": 6.81,
+  "config": {
+    "data_root": "/root/lfp/data/v2",
+    "split": "/root/lfp/data/v2/splits/kfold5_f4_imagelevel.csv",
+    "backbone": "resnet50",
+    "epochs": 60,
+    "bs": 32,
+    "lr": 0.0003,
+    "wd": 0.05,
+    "img_size": 224,
+    "seed": 42,
+    "accum": 1,
+    "workers": 6,
+    "out": "/root/lfp/runs/kfold_resnet50_f4",
+    "weights": null,
+    "no_amp": false,
+    "no_grayscale_norm": false,
+    "warmup": 3,
+    "patience": 25,
+    "classes": [
+      "A_new",
+      "B_2V",
+      "C_0V",
+      "D_0Vcu"
+    ],
+    "device": "cuda",
+    "n_train_p": 23516228,
+    "model_note": "",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "torch": "2.14.0+cu130",
+    "start": "2026-09-30 21:34:42"
+  },
+  "val_tile_acc": 1.0,
+  "val_tile_f1_macro": 1.0,
+  "val_per_class": {
+    "A_new": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 80
+    },
+    "B_2V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 80
+    },
+    "C_0V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64
+    },
+    "D_0Vcu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64
+    }
+  },
+  "test_tile_acc": 0.9893,
+  "test_tile_f1_macro": 0.9886,
+  "test_per_class": {
+    "A_new": {
+      "precision": 0.9938,
+      "recall": 1.0,
+      "f1": 0.9969,
+      "support": 160
+    },
+    "B_2V": {
+      "precision": 1.0,
+      "recall": 0.9931,
+      "f1": 0.9965,
+      "support": 144
+    },
+    "C_0V": {
+      "precision": 0.9624,
+      "recall": 1.0,
+      "f1": 0.9808,
+      "support": 128
+    },
+    "D_0Vcu": {
+      "precision": 1.0,
+      "recall": 0.9609,
+      "f1": 0.9801,
+      "support": 128
+    }
+  }
+}

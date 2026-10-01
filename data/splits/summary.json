@@ -1,0 +1,72 @@
+{
+  "n_images": 176,
+  "n_tiles": 2816,
+  "protocols": {
+    "42": {
+      "tilelevel": {
+        "path": "/root/lfp/data/v2/splits/protocol_tilelevel_seed42.csv",
+        "counts": {
+          "train": 1689,
+          "val": 563,
+          "test": 564
+        },
+        "leaked_images": 176,
+        "total_images": 176
+      },
+      "imagelevel": {
+        "path": "/root/lfp/data/v2/splits/protocol_imagelevel_seed42.csv",
+        "counts": {
+          "train": 1680,
+          "val": 560,
+          "test": 576
+        },
+        "leaked_images": 0,
+        "total_images": 176
+      }
+    },
+    "43": {
+      "tilelevel": {
+        "path": "/root/lfp/data/v2/splits/protocol_tilelevel_seed43.csv",
+        "counts": {
+          "train": 1689,
+          "val": 563,
+          "test": 564
+        },
+        "leaked_images": 176,
+        "total_images": 176
+      },
+      "imagelevel": {
+        "path": "/root/lfp/data/v2/splits/protocol_imagelevel_seed43.csv",
+        "counts": {
+          "train": 1680,
+          "val": 560,
+          "test": 576
+        },
+        "leaked_images": 0,
+        "total_images": 176
+      }
+    },
+    "44": {
+      "tilelevel": {
+        "path": "/root/lfp/data/v2/splits/protocol_tilelevel_seed44.csv",
+        "counts": {
+          "train": 1689,
+          "val": 563,
+          "test": 564
+        },
+        "leaked_images": 176,
+        "total_images": 176
+      },
+      "imagelevel": {
+        "path": "/root/lfp/data/v2/splits/protocol_imagelevel_seed44.csv",
+        "counts": {
+          "train": 1680,
+          "val": 560,
+          "test": 576
+        },
+        "leaked_images": 0,
+        "total_images": 176
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "backbone": "efficientnet_b0",
+  "seed": 42,
+  "protocol": "kfold5_f2_imagelevel.csv",
+  "n_train": 1968,
+  "n_val": 272,
+  "n_test": 576,
+  "best_epoch": 35,
+  "best_val_acc": 1.0,
+  "best_val_f1": 1.0,
+  "epochs_run": 60,
+  "total_min": 6.96,
+  "config": {
+    "data_root": "/root/lfp/data/v2",
+    "split": "/root/lfp/data/v2/splits/kfold5_f2_imagelevel.csv",
+    "backbone": "efficientnet_b0",
+    "epochs": 60,
+    "bs": 32,
+    "lr": 0.0003,
+    "wd": 0.05,
+    "img_size": 224,
+    "seed": 42,
+    "accum": 1,
+    "workers": 6,
+    "out": "/root/lfp/runs/kfold_efficientnet_b0_f2",
+    "weights": null,
+    "no_amp": false,
+    "no_grayscale_norm": false,
+    "warmup": 3,
+    "patience": 25,
+    "classes": [
+      "A_new",
+      "B_2V",
+      "C_0V",
+      "D_0Vcu"
+    ],
+    "device": "cuda",
+    "n_train_p": 4012672,
+    "model_note": "",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "torch": "2.14.0+cu130",
+    "start": "2026-09-30 21:47:41"
+  },
+  "val_tile_acc": 1.0,
+  "val_tile_f1_macro": 1.0,
+  "val_per_class": {
+    "A_new": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 80
+    },
+    "B_2V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64
+    },
+    "C_0V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64
+    },
+    "D_0Vcu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64
+    }
+  },
+  "test_tile_acc": 0.9549,
+  "test_tile_f1_macro": 0.9505,
+  "test_per_class": {
+    "A_new": {
+      "precision": 0.9877,
+      "recall": 1.0,
+      "f1": 0.9938,
+      "support": 160
+    },
+    "B_2V": {
+      "precision": 0.9573,
+      "recall": 0.9812,
+      "f1": 0.9691,
+      "support": 160
+    },
+    "C_0V": {
+      "precision": 1.0,
+      "recall": 0.8203,
+      "f1": 0.9013,
+      "support": 128
+    },
+    "D_0Vcu": {
+      "precision": 0.8828,
+      "recall": 1.0,
+      "f1": 0.9377,
+      "support": 128
+    }
+  }
+}

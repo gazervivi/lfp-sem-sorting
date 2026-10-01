@@ -1,0 +1,100 @@
+{
+  "backbone": "resnet50",
+  "seed": 42,
+  "protocol": "kfold5_f5_imagelevel.csv",
+  "n_train": 1984,
+  "n_val": 288,
+  "n_test": 544,
+  "best_epoch": 33,
+  "best_val_acc": 0.9965277777777778,
+  "best_val_f1": 0.9968748779249189,
+  "epochs_run": 58,
+  "total_min": 5.9,
+  "config": {
+    "data_root": "/root/lfp/data/v2",
+    "split": "/root/lfp/data/v2/splits/kfold5_f5_imagelevel.csv",
+    "backbone": "resnet50",
+    "epochs": 60,
+    "bs": 32,
+    "lr": 0.0003,
+    "wd": 0.05,
+    "img_size": 224,
+    "seed": 42,
+    "accum": 1,
+    "workers": 6,
+    "out": "/root/lfp/runs/kfold_resnet50_f5",
+    "weights": null,
+    "no_amp": false,
+    "no_grayscale_norm": false,
+    "warmup": 3,
+    "patience": 25,
+    "classes": [
+      "A_new",
+      "B_2V",
+      "C_0V",
+      "D_0Vcu"
+    ],
+    "device": "cuda",
+    "n_train_p": 23516228,
+    "model_note": "",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "torch": "2.14.0+cu130",
+    "start": "2026-09-30 21:41:38"
+  },
+  "val_tile_acc": 0.9965,
+  "val_tile_f1_macro": 0.9969,
+  "val_per_class": {
+    "A_new": {
+      "precision": 0.9877,
+      "recall": 1.0,
+      "f1": 0.9938,
+      "support": 80
+    },
+    "B_2V": {
+      "precision": 1.0,
+      "recall": 0.9875,
+      "f1": 0.9937,
+      "support": 80
+    },
+    "C_0V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64
+    },
+    "D_0Vcu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64
+    }
+  },
+  "test_tile_acc": 0.9577,
+  "test_tile_f1_macro": 0.9543,
+  "test_per_class": {
+    "A_new": {
+      "precision": 0.8989,
+      "recall": 1.0,
+      "f1": 0.9467,
+      "support": 160
+    },
+    "B_2V": {
+      "precision": 0.9662,
+      "recall": 0.9931,
+      "f1": 0.9795,
+      "support": 144
+    },
+    "C_0V": {
+      "precision": 1.0,
+      "recall": 0.8036,
+      "f1": 0.8911,
+      "support": 112
+    },
+    "D_0Vcu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 128
+    }
+  }
+}

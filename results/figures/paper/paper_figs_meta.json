@@ -1,0 +1,22 @@
+{
+  "errors": [
+    {
+      "file": "0V_20260209,142225.jpg",
+      "cls_true": "C_0V",
+      "cls_pred": "D_0Vcu",
+      "conf": 0.839
+    },
+    {
+      "file": "0V_20260209,141736.jpg",
+      "cls_true": "C_0V",
+      "cls_pred": "A_new",
+      "conf": 0.656
+    },
+    {
+      "file": "0V_20260209,141837.jpg",
+      "cls_true": "C_0V",
+      "cls_pred": "A_new",
+      "conf": 0.609
+    }
+  ]
+}

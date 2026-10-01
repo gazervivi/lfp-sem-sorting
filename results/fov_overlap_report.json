@@ -1,0 +1,54 @@
+{
+  "A_new": {
+    "n_images": 50,
+    "dominant_mag": "10000",
+    "pixel_width": 1280,
+    "fov_width_um": 10.0,
+    "stage_span_x_um": 454.0,
+    "stage_span_y_um": 199.0,
+    "nn_dist_min_um": 0.0,
+    "nn_dist_median_um": 11.4,
+    "nn_dist_max_um": 37.34,
+    "n_images_with_overlapping_neighbor": 25,
+    "overlap_fraction": 0.5
+  },
+  "B_2V": {
+    "n_images": 47,
+    "dominant_mag": "10000",
+    "pixel_width": 1280,
+    "fov_width_um": 10.0,
+    "stage_span_x_um": 651.0,
+    "stage_span_y_um": 246.0,
+    "nn_dist_min_um": 0.0,
+    "nn_dist_median_um": 16.64,
+    "nn_dist_max_um": 27.07,
+    "n_images_with_overlapping_neighbor": 10,
+    "overlap_fraction": 0.213
+  },
+  "C_0V": {
+    "n_images": 39,
+    "dominant_mag": "10000",
+    "pixel_width": 2560,
+    "fov_width_um": 10.0,
+    "stage_span_x_um": 894.0,
+    "stage_span_y_um": 2807.0,
+    "nn_dist_min_um": 14.32,
+    "nn_dist_median_um": 22.83,
+    "nn_dist_max_um": 112.36,
+    "n_images_with_overlapping_neighbor": 0,
+    "overlap_fraction": 0.0
+  },
+  "D_0Vcu": {
+    "n_images": 40,
+    "dominant_mag": "10000",
+    "pixel_width": 2560,
+    "fov_width_um": 10.0,
+    "stage_span_x_um": 525.0,
+    "stage_span_y_um": 702.0,
+    "nn_dist_min_um": 11.18,
+    "nn_dist_median_um": 23.09,
+    "nn_dist_max_um": 47.93,
+    "n_images_with_overlapping_neighbor": 0,
+    "overlap_fraction": 0.0
+  }
+}

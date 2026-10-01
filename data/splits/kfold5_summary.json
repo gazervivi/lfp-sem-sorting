@@ -1,0 +1,52 @@
+{
+  "fold1": {
+    "path": "/root/lfp/data/v2/splits/kfold5_f1_imagelevel.csv",
+    "tiles": {
+      "train": 1968,
+      "val": 272,
+      "test": 576
+    },
+    "leaked_images": 0,
+    "n_images": 176
+  },
+  "fold2": {
+    "path": "/root/lfp/data/v2/splits/kfold5_f2_imagelevel.csv",
+    "tiles": {
+      "train": 1968,
+      "val": 272,
+      "test": 576
+    },
+    "leaked_images": 0,
+    "n_images": 176
+  },
+  "fold3": {
+    "path": "/root/lfp/data/v2/splits/kfold5_f3_imagelevel.csv",
+    "tiles": {
+      "train": 1968,
+      "test": 560,
+      "val": 288
+    },
+    "leaked_images": 0,
+    "n_images": 176
+  },
+  "fold4": {
+    "path": "/root/lfp/data/v2/splits/kfold5_f4_imagelevel.csv",
+    "tiles": {
+      "train": 1968,
+      "test": 560,
+      "val": 288
+    },
+    "leaked_images": 0,
+    "n_images": 176
+  },
+  "fold5": {
+    "path": "/root/lfp/data/v2/splits/kfold5_f5_imagelevel.csv",
+    "tiles": {
+      "test": 544,
+      "train": 1984,
+      "val": 288
+    },
+    "leaked_images": 0,
+    "n_images": 176
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "n_folds": 5,
+  "n_tiles": 2816,
+  "tile_acc": 0.9794,
+  "tile_ci95": [
+    0.9735,
+    0.984
+  ],
+  "n_images": 176,
+  "image_acc": 0.983,
+  "image_ci95": [
+    0.9511,
+    0.9942
+  ],
+  "per_class": {
+    "A_new": {
+      "precision": 0.9708,
+      "recall": 0.9975,
+      "f1": 0.984,
+      "support": 800
+    },
+    "B_2V": {
+      "precision": 0.9803,
+      "recall": 0.9947,
+      "f1": 0.9875,
+      "support": 752
+    },
+    "C_0V": {
+      "precision": 0.9983,
+      "recall": 0.9183,
+      "f1": 0.9566,
+      "support": 624
+    },
+    "D_0Vcu": {
+      "precision": 0.9726,
+      "recall": 0.9984,
+      "f1": 0.9854,
+      "support": 640
+    }
+  },
+  "n_errors": 3
+}

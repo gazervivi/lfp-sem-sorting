@@ -1,0 +1,100 @@
+{
+  "backbone": "resnet50",
+  "seed": 42,
+  "protocol": "protocol_tilelevel_seed42.csv",
+  "n_train": 1689,
+  "n_val": 563,
+  "n_test": 564,
+  "best_epoch": 18,
+  "best_val_acc": 1.0,
+  "best_val_f1": 1.0,
+  "epochs_run": 43,
+  "config": {
+    "data_root": "/root/lfp/data/v2",
+    "split": "/root/lfp/data/v2/splits/protocol_tilelevel_seed42.csv",
+    "backbone": "resnet50",
+    "epochs": 60,
+    "bs": 32,
+    "lr": 0.0003,
+    "wd": 0.05,
+    "img_size": 224,
+    "seed": 42,
+    "accum": 1,
+    "workers": 6,
+    "out": "./runs/e1_P1_resnet50_s42",
+    "weights": null,
+    "no_amp": false,
+    "no_grayscale_norm": false,
+    "warmup": 3,
+    "patience": 25,
+    "classes": [
+      "A_new",
+      "B_2V",
+      "C_0V",
+      "D_0Vcu"
+    ],
+    "device": "cuda",
+    "n_train_p": 23516228,
+    "model_note": "",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "torch": "2.14.0+cu130",
+    "start": "2026-09-30 20:50:02"
+  },
+  "val_tile_acc": 1.0,
+  "val_tile_f1_macro": 1.0,
+  "val_per_class": {
+    "A_new": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 175
+    },
+    "B_2V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 136
+    },
+    "C_0V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 127
+    },
+    "D_0Vcu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 125
+    }
+  },
+  "test_tile_acc": 0.9947,
+  "test_tile_f1_macro": 0.9949,
+  "test_per_class": {
+    "A_new": {
+      "precision": 0.9886,
+      "recall": 1.0,
+      "f1": 0.9943,
+      "support": 173
+    },
+    "B_2V": {
+      "precision": 0.9932,
+      "recall": 0.9865,
+      "f1": 0.9898,
+      "support": 148
+    },
+    "C_0V": {
+      "precision": 1.0,
+      "recall": 0.9912,
+      "f1": 0.9956,
+      "support": 113
+    },
+    "D_0Vcu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 130
+    }
+  },
+  "total_min": null
+}

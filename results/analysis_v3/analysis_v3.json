@@ -1,0 +1,496 @@
+{
+ "boot::P1::resnet50": {
+  "n_images": 173,
+  "point": {
+   "img_acc": 1.0,
+   "tile_acc": 0.9947,
+   "bal_acc": 1.0,
+   "c_recall": 1.0
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9879,
+    "hi": 1.0
+   },
+   "bal_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 1.0,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::P1::efficientnet_b0": {
+  "n_images": 173,
+  "point": {
+   "img_acc": 1.0,
+   "tile_acc": 1.0,
+   "bal_acc": 1.0,
+   "c_recall": 1.0
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "bal_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 1.0,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::P1::swin_t": {
+  "n_images": 173,
+  "point": {
+   "img_acc": 1.0,
+   "tile_acc": 0.9965,
+   "bal_acc": 1.0,
+   "c_recall": 1.0
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9909,
+    "hi": 1.0
+   },
+   "bal_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 1.0,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::P1::dinov2": {
+  "n_images": 173,
+  "point": {
+   "img_acc": 1.0,
+   "tile_acc": 1.0,
+   "bal_acc": 1.0,
+   "c_recall": 1.0
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "bal_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 1.0,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::P2::resnet50": {
+  "n_images": 36,
+  "point": {
+   "img_acc": 0.9722,
+   "tile_acc": 0.9618,
+   "bal_acc": 0.9583,
+   "c_recall": 0.875
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 0.9167,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9027,
+    "hi": 0.9965
+   },
+   "bal_acc": {
+    "lo": 0.8667,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 0.6,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::P2::efficientnet_b0": {
+  "n_images": 36,
+  "point": {
+   "img_acc": 0.9722,
+   "tile_acc": 0.9688,
+   "bal_acc": 0.9583,
+   "c_recall": 0.875
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 0.9167,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9097,
+    "hi": 1.0
+   },
+   "bal_acc": {
+    "lo": 0.8667,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 0.6,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::P2::swin_t": {
+  "n_images": 36,
+  "point": {
+   "img_acc": 0.9722,
+   "tile_acc": 0.9688,
+   "bal_acc": 0.9583,
+   "c_recall": 0.875
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 0.9167,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9097,
+    "hi": 1.0
+   },
+   "bal_acc": {
+    "lo": 0.8665,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 0.5992,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::P2::dinov2": {
+  "n_images": 36,
+  "point": {
+   "img_acc": 0.9722,
+   "tile_acc": 0.9635,
+   "bal_acc": 0.9583,
+   "c_recall": 0.875
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 0.9167,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9028,
+    "hi": 0.9983
+   },
+   "bal_acc": {
+    "lo": 0.8667,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 0.6,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::P3::resnet50": {
+  "n_images": 35,
+  "point": {
+   "img_acc": 1.0,
+   "tile_acc": 0.9893,
+   "bal_acc": 1.0,
+   "c_recall": 1.0
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9732,
+    "hi": 1.0
+   },
+   "bal_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 1.0,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::P3::efficientnet_b0": {
+  "n_images": 35,
+  "point": {
+   "img_acc": 1.0,
+   "tile_acc": 0.9875,
+   "bal_acc": 1.0,
+   "c_recall": 1.0
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9679,
+    "hi": 1.0
+   },
+   "bal_acc": {
+    "lo": 1.0,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 1.0,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::KF::resnet50": {
+  "n_images": 176,
+  "point": {
+   "img_acc": 0.983,
+   "tile_acc": 0.9783,
+   "bal_acc": 0.9744,
+   "c_recall": 0.9231
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 0.9602,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9602,
+    "hi": 0.9929
+   },
+   "bal_acc": {
+    "lo": 0.9431,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 0.8293,
+    "hi": 1.0
+   }
+  }
+ },
+ "boot::KF::efficientnet_b0": {
+  "n_images": 176,
+  "point": {
+   "img_acc": 0.983,
+   "tile_acc": 0.9794,
+   "bal_acc": 0.9744,
+   "c_recall": 0.9231
+  },
+  "ci95": {
+   "img_acc": {
+    "lo": 0.9602,
+    "hi": 1.0
+   },
+   "tile_acc": {
+    "lo": 0.9602,
+    "hi": 0.9943
+   },
+   "bal_acc": {
+    "lo": 0.9431,
+    "hi": 1.0
+   },
+   "c_recall": {
+    "lo": 0.8293,
+    "hi": 1.0
+   }
+  }
+ },
+ "gap::P1-P2::resnet50": {
+  "tile_acc": {
+   "mean": 0.0327,
+   "lo": -0.0022,
+   "hi": 0.0937,
+   "p_gt0": 0.9369
+  },
+  "img_acc": {
+   "mean": 0.0278,
+   "lo": 0.0,
+   "hi": 0.0833,
+   "p_gt0": 0.639
+  },
+  "c_recall": {
+   "mean": 0.1232,
+   "lo": 0.0,
+   "hi": 0.4,
+   "p_gt0": 0.6391
+  }
+ },
+ "gap::P1-P2::efficientnet_b0": {
+  "tile_acc": {
+   "mean": 0.0314,
+   "lo": 0.0,
+   "hi": 0.0903,
+   "p_gt0": 0.8741
+  },
+  "img_acc": {
+   "mean": 0.028,
+   "lo": 0.0,
+   "hi": 0.0833,
+   "p_gt0": 0.6404
+  },
+  "c_recall": {
+   "mean": 0.1247,
+   "lo": 0.0,
+   "hi": 0.4,
+   "p_gt0": 0.6404
+  }
+ },
+ "gap::P1-P2::swin_t": {
+  "tile_acc": {
+   "mean": 0.0278,
+   "lo": -0.0055,
+   "hi": 0.0868,
+   "p_gt0": 0.7966
+  },
+  "img_acc": {
+   "mean": 0.0279,
+   "lo": 0.0,
+   "hi": 0.0833,
+   "p_gt0": 0.6413
+  },
+  "c_recall": {
+   "mean": 0.1251,
+   "lo": 0.0,
+   "hi": 0.4,
+   "p_gt0": 0.6414
+  }
+ },
+ "gap::P1-P2::dinov2": {
+  "tile_acc": {
+   "mean": 0.0361,
+   "lo": 0.0017,
+   "hi": 0.0955,
+   "p_gt0": 0.983
+  },
+  "img_acc": {
+   "mean": 0.0275,
+   "lo": 0.0,
+   "hi": 0.0833,
+   "p_gt0": 0.6333
+  },
+  "c_recall": {
+   "mean": 0.124,
+   "lo": 0.0,
+   "hi": 0.4,
+   "p_gt0": 0.6334
+  }
+ },
+ "thresh::resnet50": {
+  "n_val": 35,
+  "val_threshold": 0.6114,
+  "val_coverage": 0.9714285714285714,
+  "val_selective_err": 0.0,
+  "test_coverage": 1.0,
+  "test_selective_acc": 0.9722,
+  "n_covered": 36,
+  "n_rejected": 0,
+  "rejected": [],
+  "rejected_correct": []
+ },
+ "thresh::efficientnet_b0": {
+  "n_val": 35,
+  "val_threshold": 0.6336,
+  "val_coverage": 1.0,
+  "val_selective_err": 0.0,
+  "test_coverage": 1.0,
+  "test_selective_acc": 0.9722,
+  "n_covered": 36,
+  "n_rejected": 0,
+  "rejected": [],
+  "rejected_correct": []
+ },
+ "silhouette": {
+  "raw2048_euclidean": 0.6809,
+  "raw2048_cosine": 0.8798,
+  "zscore2048_euclidean": 0.5533,
+  "pca20_euclidean": 0.653,
+  "pca50_euclidean": 0.603
+ },
+ "p3_blocks": {
+  "train": {
+   "classes": {
+    "A_new": 30,
+    "B_2V": 28,
+    "C_0V": 23,
+    "D_0Vcu": 24
+   },
+   "n": 105,
+   "x_range": [
+    13.69,
+    23.97
+   ]
+  },
+  "val": {
+   "classes": {
+    "A_new": 10,
+    "B_2V": 10,
+    "C_0V": 8,
+    "D_0Vcu": 8
+   },
+   "n": 36,
+   "x_range": [
+    13.96,
+    24.14
+   ]
+  },
+  "test": {
+   "classes": {
+    "A_new": 10,
+    "B_2V": 9,
+    "C_0V": 8,
+    "D_0Vcu": 8
+   },
+   "n": 35,
+   "x_range": [
+    14.02,
+    24.23
+   ]
+  }
+ },
+ "p2_repeat::e1_P2_resnet50_s42": {
+  "n_images": 36,
+  "point": {
+   "img_acc": 0.9722,
+   "tile_acc": 0.9618,
+   "bal_acc": 0.9583,
+   "c_recall": 0.875
+  }
+ },
+ "p2_repeat::e1_P2_resnet50_s43": {
+  "n_images": 36,
+  "point": {
+   "img_acc": 0.9444,
+   "tile_acc": 0.9549,
+   "bal_acc": 0.9167,
+   "c_recall": 0.75
+  }
+ }
+}

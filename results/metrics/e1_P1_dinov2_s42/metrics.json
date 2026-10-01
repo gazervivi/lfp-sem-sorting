@@ -1,0 +1,100 @@
+{
+  "backbone": "dinov2",
+  "seed": 42,
+  "protocol": "protocol_tilelevel_seed42.csv",
+  "n_train": 1689,
+  "n_val": 563,
+  "n_test": 564,
+  "best_epoch": 8,
+  "best_val_acc": 1.0,
+  "best_val_f1": 1.0,
+  "epochs_run": 30,
+  "total_min": 3.0,
+  "config": {
+    "data_root": "/root/lfp/data/v2",
+    "split": "/root/lfp/data/v2/splits/protocol_tilelevel_seed42.csv",
+    "backbone": "dinov2",
+    "epochs": 30,
+    "bs": 24,
+    "lr": 0.001,
+    "wd": 0.05,
+    "img_size": 224,
+    "seed": 42,
+    "accum": 1,
+    "workers": 6,
+    "out": "/root/lfp/runs/e1_P1_dinov2_s42",
+    "weights": null,
+    "no_amp": false,
+    "no_grayscale_norm": false,
+    "warmup": 3,
+    "patience": 25,
+    "classes": [
+      "A_new",
+      "B_2V",
+      "C_0V",
+      "D_0Vcu"
+    ],
+    "device": "cuda",
+    "n_train_p": 14180356,
+    "model_note": "timm DINOv2 ViT-S/14 自监督权重 + 线性探测头（dynamic_img_size）",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "torch": "2.14.0+cu130",
+    "start": "2026-09-30 21:17:10"
+  },
+  "val_tile_acc": 1.0,
+  "val_tile_f1_macro": 1.0,
+  "val_per_class": {
+    "A_new": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 175
+    },
+    "B_2V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 136
+    },
+    "C_0V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 127
+    },
+    "D_0Vcu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 125
+    }
+  },
+  "test_tile_acc": 1.0,
+  "test_tile_f1_macro": 1.0,
+  "test_per_class": {
+    "A_new": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 173
+    },
+    "B_2V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 148
+    },
+    "C_0V": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 113
+    },
+    "D_0Vcu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 130
+    }
+  }
+}

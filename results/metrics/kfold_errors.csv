@@ -1,0 +1,4 @@
+﻿source_image,cls_true,cls_pred,n_tiles,vote_frac,mean_conf
+"0V_20260209,142225",C_0V,D_0Vcu,16,1.0,0.912
+"0V_20260209,141736",C_0V,A_new,16,0.625,0.692
+"0V_20260209,141837",C_0V,A_new,16,0.688,0.804

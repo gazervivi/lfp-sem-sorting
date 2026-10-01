@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "SEM-based sorting of retired LiFePO4 cathodes: dataset, splits, code and results"
+authors:
+  - family-names: Zhang
+    given-names: Wentao
+    email: mapery@163.com
+year: 2026
+license: MIT
+repository-code: "https://github.com/mapery/lfp-sem-sorting"
+keywords:
+  - LiFePO4
+  - SEM
+  - battery recycling
+  - data leakage
+  - evaluation protocols
