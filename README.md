@@ -164,5 +164,5 @@ If you use this repository, please cite:
 
 ## 7. Contact
 
-Wentao Zhang — mapery@163.com
+Lu Zhang — mapery@163.com
 Issues and questions: please use GitHub Issues.
